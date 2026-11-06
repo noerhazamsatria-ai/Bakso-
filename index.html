@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakso Nuklir | Aneka Bakso Lezat</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <nav class="bg-blue-700 text-white px-6 py-4 shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                ☢ Bakso Nuklir
+            </h1>
+
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="#home" class="hover:text-blue-200">Home</a>
+                <a href="#produk" class="hover:text-blue-200">Produk</a>
+                <a href="#tentang" class="hover:text-blue-200">Tentang</a>
+                <a href="#kontak" class="hover:text-blue-200">Kontak</a>
+            </div>
+
+            <button class="bg-white text-blue-700 px-5 py-2 rounded-lg font-semibold hover:bg-blue-100">
+                Login
+            </button>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-24 px-6">
+
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+            <div class="flex-1">
+
+                <span class="bg-blue-400 px-4 py-2 rounded-full text-sm">
+                    🔥 Nikmat dan Menggugah Selera
+                </span>
+
+                <h2 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">
+                    Rasakan Sensasi
+                    <span class="text-yellow-300">
+                        Bakso Nuklir!
+                    </span>
+                </h2>
+
+                <p class="mt-6 text-lg text-blue-100 leading-relaxed">
+                    Nikmati aneka pilihan bakso dengan rasa yang lezat,
+                    kuah gurih, dan pilihan topping yang menggoda.
+                    Cocok untuk menemani waktu makanmu!
+                </p>
+
+                <div class="flex flex-wrap gap-4 mt-8">
+
+                    <a href="#produk"
+                       class="bg-yellow-400 text-blue-900 px-7 py-3 rounded-lg font-bold hover:bg-yellow-300">
+                        Lihat Produk
+                    </a>
+
+                    <a href="#tentang"
+                       class="border-2 border-white px-7 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-700">
+                        Pelajari Lebih Lanjut
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="flex-1">
+                <div class="bg-white p-4 rounded-3xl shadow-2xl rotate-2">
+                    <img
+                        src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800"
+                        alt="Hidangan makanan"
+                        class="rounded-2xl w-full h-80 object-cover">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PRODUK -->
+    <section id="produk" class="py-20 px-6">
+
+        <div class="max-w-7xl mx-auto text-center">
+
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-800">
+                Aneka Produk Kami
+            </h2>
+
+            <p class="text-gray-500 mt-3">
+                Pilih bakso favoritmu!
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600"
+                         class="w-full h-48 object-cover" alt="Bakso spesial">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-blue-800">Bakso Spesial</h3>
+                        <p class="text-gray-500 mt-2">Bakso dengan kuah gurih dan nikmat.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+                         class="w-full h-48 object-cover" alt="Bakso pedas">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-blue-800">Bakso Pedas</h3>
+                        <p class="text-gray-500 mt-2">Sensasi pedas untuk pecinta makanan pedas.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=600"
+                         class="w-full h-48 object-cover" alt="Bakso komplit">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-blue-800">Bakso Komplit</h3>
+                        <p class="text-gray-500 mt-2">Bakso dengan aneka topping pilihan.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TENTANG -->
+    <section id="tentang" class="bg-blue-50 py-16 px-6 text-center">
+
+        <div class="max-w-3xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-blue-800">
+                Tentang Bakso Nuklir
+            </h2>
+
+            <p class="mt-5 text-gray-600 leading-relaxed">
+                Bakso Nuklir adalah tempat menikmati berbagai macam
+                hidangan bakso dengan cita rasa khas, bahan berkualitas,
+                dan pelayanan terbaik untuk pelanggan.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="kontak" class="bg-blue-900 text-white py-8 px-6">
+
+        <div class="max-w-7xl mx-auto text-center">
+
+            <h2 class="text-2xl font-bold">
+                ☢ Bakso Nuklir
+            </h2>
+
+            <p class="mt-3 text-blue-200">
+                Lezatnya Bikin Ketagihan!
+            </p>
+
+            <p class="mt-5 text-sm text-blue-300">
+                © 2026 Bakso Nuklir. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
